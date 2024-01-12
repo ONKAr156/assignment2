@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+::selection{
+  color: white;
+  background-color: red;
+}
