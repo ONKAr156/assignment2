@@ -5,7 +5,7 @@ import axios from 'axios';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 
-const page = () => {
+const Home = () => {
   const [username, setUsername] = useState("");
   const [usersData, setUsersData] = useState(null);
   const [error, setError] = useState('');
@@ -101,4 +101,4 @@ const page = () => {
   );
 }
 
-export default page
+export default Home
