@@ -16,7 +16,7 @@
         setUsersData(response.data);
         } catch (error) {
         if (error.response && error.response.status === 404) {
-            setError('User not found.'); // Handle the 404 error separately
+            setError('User not found.'); 
         } else {
             setError('An error occurred. Please try again.'); 
         }
